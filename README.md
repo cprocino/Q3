@@ -1,4 +1,4 @@
-# q3 notebook
+# Q3 notebook
 
 # rotary encoder
 
