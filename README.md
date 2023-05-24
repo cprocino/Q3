@@ -101,3 +101,12 @@ here is the wiring diagram:
 
 
 This was a pretty easy project it just needed some help from nixon and ChatGPT to finnish.
+
+
+
+
+## Onshape certifacation
+I did not pass my onshape exam. If i was to nail down why i didn't pass it would be probably two main reasons, One: i had been sick with covid for a week and a half leading up to the exam missing almost all of the prep work and not knowing what i had to study. The second reason is that I dont practice CAD enough, I dont work on CAD outside of class and dont have any special affinity towards it. If i wre to try to pass the test agian i would need to spend far more time just messing around on Onshape and learning all of the common sence things on there. That is i think the biggest factor in passing or failing, the time spent woring on onshape.   
+The advice that i would give other students trying to pass this exam is to spend time on Onshape doing things that intrest them. Just design and build things that are new and fun in order to get them used to Onshape. 
+
+
