@@ -103,6 +103,46 @@ here is the wiring diagram:
 This was a pretty easy project it just needed some help from nixon and ChatGPT to finnish.
 
 
+## photointerruptor
+for this project we were to make a photointerruptor work using the new boards. Additionaly we were to make a counter return the number of times the interruptor was fired and return it in a sentence. 
+
+### wiring 
+![Screenshot 2023-05-31 1 08 32 PM](https://github.com/cprocino/Q3/assets/71406784/441f82cb-4004-4f7f-9f80-f9b8a1a0c553)
+
+please note that the board i used in reality was an arduino metro and the transitor takes the place of the photointerruptor. The wiring is otherwise correct.
+
+### code 
+
+    import time
+    import digitalio
+    import board
+        pI.direction = digitalio.Direction.INPUT
+        pI.pull = digitalio.Pull.UP
+        pI = digitalio.DigitalInOut(board.D2)
+
+
+    last_pI = True
+    last_update = -4
+
+        photoIinteruptions = 0
+
+        while True:
+           
+           if time.monotonic()-last_update > 4:
+                print(f"it has been interruptor {photoIinteruptions} times.")
+                last_update = time.monotonic()
+    
+          if last_pI != pI.value and not pI.value:
+                photoIinteruptions += 1
+            
+            
+            last_pI = pI.value
+
+### reflection
+
+This was a project that was on the surface very easy but its difficulty came from my ignorance of the new coding language and method with which to upload it. In the end i figured it out but it tookn some time and some help from my classmate Graham Gilbert-Schroeer to understand and complete the last bit of code.
+
+
 
 
 ## Onshape certifacation
